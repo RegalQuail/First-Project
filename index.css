@@ -8,5 +8,6 @@ p {
 }
 
 #userInput {
+    display: flex;
     align-items: center;
 }
