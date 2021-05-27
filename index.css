@@ -1,17 +1,17 @@
 body {
     text-align: center;
+    font-family: Guidea 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    text-align: center;
-    font-size: 60;
+    font-size: 60px;
 }
 
-p {
-    text-align: center;
+#first {
+    font-size: 45px;
 }
 
 input {
-    position: absolute;
-    left: 50px;
+    position: relative;
+    height: 30px;
 }
