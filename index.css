@@ -16,3 +16,7 @@ input {
     min-width: 65%;
     padding: 5px;
 }
+
+.delete {
+    display: none;
+}
