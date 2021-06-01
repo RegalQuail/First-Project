@@ -17,6 +17,18 @@ input {
     padding: 5px;
 }
 
+button {
+    position: relative;
+    height: 4em;
+    width: 6em;
+    background-color: #adff2f;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(10, 182, 10);
+}
+
 .delete {
     display: none;
 }
