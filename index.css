@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: Guidea 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #191970;
 }
 
 h1 {
@@ -16,6 +17,8 @@ h1 {
 }
 
 input {
+    position: relative;
+    border: 2px solid #0a0a35;
     border-radius: 5px;
     min-width: 65%;
     padding: 5px;
@@ -23,14 +26,30 @@ input {
 
 #enter {
     position: relative;
-    height: 4em;
-    width: 6em;
-    background-color: #adff2f;
-    border: none;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    padding: 0 2rem;
+    font-family: inherit;
+    font-size: 1.25rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background: transparent;
+    background: #5d2fdf;
+    cursor: pointer;
+    outline: none;
+    transition-property: background, box-shadow;
+    transition-duration: 0.35s;
 }
 
 #enter:hover {
-    background-color: rgb(16, 241, 16);
+    background: #5526d5;
+}
+
+button {
+    position: inherit;
 }
 
 button:hover{
