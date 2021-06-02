@@ -1,0 +1,59 @@
+.tick-box {
+  width: 40px;
+  height: 40px;
+  background: #34EC46;
+  box-shadow: 0px 4px 10px 2px rgba(53, 255, 158, 0.15);
+  border-radius: 6px;
+  transition: 250ms ease;
+  cursor: pointer;
+  position: relative;
+}
+.tick-box:active {
+  transform: scale(0.9);
+}
+.tick-box:hover {
+  background: #21D533;
+  box-shadow: 0px, 4px, 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.tick-box .err-icon {
+  position: relative;
+}
+.tick-box div {
+  transition: 250ms ease;
+}
+.tick-box div:first-of-type {
+  width: 4px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(calc(-50% + 3px)) rotate(30deg);
+}
+.tick-box div:last-of-type {
+  background: #FFFFFF;
+  border-radius: 2px;
+  width: 4px;
+  height: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(calc(-50% - 4px)) rotate(-45deg);
+}
+.tick-box:hover div:first-of-type {
+  height: 14px;
+  transform: translateX(calc(-50% + 7.5px)) rotate(45deg) translateY(calc(50% + 2.5px));
+}
+.tick-box:hover div:last-of-type {
+  height: 14px;
+   transform: translateX(calc(-50% + 7.5px)) rotate(-45deg) translateY(calc(-50% - 2.5px));
+}
+body {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
