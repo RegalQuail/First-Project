@@ -27,7 +27,7 @@ function createListElement() {
     li.addEventListener("click", crossOut);
     
     var deleteButton = document.createElement("button");
-    deleteButton.appendChild(document.createTextNode(""));
+    deleteButton.appendChild(document.createTextNode("X"));
     li.appendChild(deleteButton);
     deleteButton.addEventListener("click", deleteListItem);
 
