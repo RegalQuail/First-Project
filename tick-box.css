@@ -48,7 +48,7 @@
 }
 .tick-box:hover div:last-of-type {
   height: 14px;
-   transform: translateX(calc(-50% + 7.5px)) rotate(-45deg) translateY(calc(-50% - 2.5px));
+  transform: translateX(calc(-50% + 7.5px)) rotate(-45deg) translateY(calc(-50% - 2.5px));
 }
 body {
   text-align: center;
